@@ -1,8 +1,54 @@
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 body {
   width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6070ff;
+}
+
+.hamburger-button {
+  background-color: transparent;
+  border: 0;
+}
+
+.hamburger-icon {
+  color: #6070ff;
+  width: 24px;
+  height: 24px;
+}
+
+.hero {
+  height: 604px;
+  background-image: url('/assets/hero-background.png');
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 1rem;
 }
 
 .container {
@@ -12,17 +58,18 @@ body {
   padding: 1rem;
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #6070FF
+span {
+  font-family: 'poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #7f8cff;
+  display: flex;
+  padding: 0 1rem 0 1rem;
 }
 
-.hamburger-button {
-  background-color: transparent;
-  border: 0;
-}
-
-.hamburger-icon {
-  color: #6070FF
+.social-icons {
+  width: 170.17px;
+  height: 20px;
 }
