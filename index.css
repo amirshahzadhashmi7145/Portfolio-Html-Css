@@ -35,6 +35,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  padding: 10px 12px 10px 12px;
 }
 
 .logo > a {
@@ -77,6 +78,14 @@ body {
   gap: 12px;
 }
 
+.hero-content > h1 {
+  margin: 0;
+}
+
+.hero-content > p {
+  margin: 0;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -92,7 +101,7 @@ span {
   text-align: left;
   color: #7f8cff;
   display: flex;
-  gap: 16px
+  gap: 16px;
 }
 
 .social-icons-hero {
@@ -252,11 +261,29 @@ img.card-header-desc {
   border-top-left-radius: 60px;
 }
 
+.contact > header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 0;
+  gap: 20px;
+  padding: 0;
+}
+
+.contact-desc {
+  width: 327px;
+  height: 137px;
+  font-size: 20px;
+  color: #ebebff;
+  line-height: 28px;
+  font-weight: 400;
 }
 
 .contact-form > input {
@@ -264,7 +291,6 @@ img.card-header-desc {
   border-radius: 8px;
   width: 327px;
   height: 48px;
-  margin: 10px 0;
 }
 
 .contact-form > textarea {
@@ -272,11 +298,8 @@ img.card-header-desc {
   border-radius: 8px;
   width: 327px;
   height: 170px;
-  margin: 10px 0;
 }
 
 .submit-button {
   align-self: flex-start;
-  margin-left: 9%;
-  margin-top: 5%;
 }
